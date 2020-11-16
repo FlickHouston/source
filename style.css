@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+body {
+    background-color: black;
+  font-family: 'Space Mono', monospace;
+  color: white;
+font-size: 14px;
+line-height: 1.5;
+max-width: 1400px;
+padding: 0px 100px 0px 100px
+
+}
+
+.logo h1
+
+{
+    padding: 150px 0px 175px 0px;
+}
+
+
+h2 {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.about p {
+max-width: 350px;
+
+}
+
+.office {
+    max-width: 1200px;
+    padding: 90px 0px 90px 0px;
+}
+
+.nightstand {
+    max-width: 630px;
+    padding-bottom: 20px;
+}
