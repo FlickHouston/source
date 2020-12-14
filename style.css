@@ -7,14 +7,14 @@ body {
 font-size: 14px;
 line-height: 1.5;
 max-width: 1400px;
-padding: 0px 100px 0px 100px
+padding: 150px 100px 100px 100px
 
 }
 
 .logo h1
 
 {
-    padding: 150px 0px 175px 0px;
+    margin-bottom: 175px;
 }
 
 
@@ -25,15 +25,115 @@ h2 {
 
 .about p {
 max-width: 350px;
-
+margin-bottom: 80px;
 }
 
 .office {
     max-width: 1200px;
-    padding: 90px 0px 90px 0px;
+    margin-bottom: 100px;
 }
 
 .nightstand {
     max-width: 630px;
-    padding-bottom: 20px;
+margin-bottom: 100px;
+}
+
+.nightstand p,.daychair p {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.clients p {
+    max-width: 350px;
+    margin-bottom: 100px;
+}
+
+.daychair {
+max-width: 1100px;
+margin-bottom: 100px;
+}
+
+.dining {
+    max-width: 1200px;
+    margin-bottom: 90px;
+}
+
+.process hr {
+    max-width: 1100px
+    float: left;
+    margin: 50px 0px 50px 0px;
+}
+
+.process p {
+    max-width: 350px;
+    margin-bottom: 80px;
+}
+
+footer {
+    max-width: 1100px;
+    background-color: #1A1A1A;
+}
+
+footer a {
+    color: #999999;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.social a {
+    display: inline;
+    margin-right: 30px;
+}
+
+.contact {
+    padding: 30px;
+}
+
+@media (max-width: 700px) {
+
+body {
+    padding: 30px 30px 0px 30px;
+    font-size: 12px;
+}
+.logo h1 {
+    max-width: 70%;
+}
+
+h2 {
+    font-size: 12px;
+}
+
+.logo h1, .about p, .office, .nightstand, .clients p, .daychair, .dining, .process p, .social a {
+    margin-bottom: 30px;
+}
+
+
+.process hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    width: auto;
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+footer a:hover {
+    color: white;
+    border-bottom: none;
+}
+
+.social a {
+    display: block;
 }
